@@ -3,14 +3,15 @@ import './App.css';
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 
-function App() {
+
+function Test() {
   return (
     <div className="App">
-      <Helmet title="App title" />
+      <Helmet title="Test" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Test page.
         </p>
         <a
           className="App-link"
@@ -20,10 +21,10 @@ function App() {
         >
           Learn React
         </a>
-        <Link to={`/test`}>to test</Link>
+        <Link to={`/`}>to App</Link>
       </header>
     </div>
   );
 }
 
-export default App;
+export default Test;
